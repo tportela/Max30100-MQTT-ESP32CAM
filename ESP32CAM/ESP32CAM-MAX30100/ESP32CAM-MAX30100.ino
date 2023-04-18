@@ -99,7 +99,7 @@ void setup() {
     delay(500); //dado que es de suma importancia esperar a la conexión, debe usarse espera bloqueante
     digitalWrite (statusLedPin, LOW);
     Serial.print(".");  // Indicador de progreso
-    delay (5);
+    delay (15);
   }
   
   // Cuando se haya logrado la conexión, el programa avanzará, por lo tanto, puede informarse lo siguiente
